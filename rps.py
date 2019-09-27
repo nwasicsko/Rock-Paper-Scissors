@@ -23,3 +23,7 @@ elif player == "scissors" and computer == "rock":
     print("Computer Wins")
 elif player == "scissors" and computer == "paper":
     print("Player Wins")
+elif player != "rock" and "paper" and "scissors":
+    print("Help:\n")
+    print("Type rock, paper or scissors")
+    
